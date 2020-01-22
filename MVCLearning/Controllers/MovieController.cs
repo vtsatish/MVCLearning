@@ -14,6 +14,8 @@ namespace MVCLearning.Controllers
         {
             var movieObject = new Movie() { MovieName = "Avengers", MovieId = 1 };
             return View(movieObject);
+
+
         }
     }
 }
